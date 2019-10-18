@@ -1,0 +1,161 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1571361419890' stop='1571361443206'>
+    <name>Check Mortgage Rates for customer changing lender to Nationwide: Check Mortgage products for Changing lender customer</name>
+    <title>Check Mortgage Rates for customer changing lender to Nationwide: Check Mortgage products for Changing lender customer</title>
+    <test-cases>
+        <test-case start='1571361419897' status='passed' stop='1571361429977'>
+            <name>Given I am on Nationwide Homepage</name>
+            <title>Given I am on Nationwide Homepage</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1571361429978' status='passed' stop='1571361430180'>
+            <name>Then I should be able to verify Homepage title to "Nationwide Building Society | building society, nationwide"</name>
+            <title>Then I should be able to verify Homepage title to "Nationwide Building Society | building society, nationwide"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1571361430180' status='passed' stop='1571361434678'>
+            <name>When I navigate from Mortgages to New mortgage customer: Mortgage rates</name>
+            <title>When I navigate from Mortgages to New mortgage customer: Mortgage rates</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1571361434679' status='passed' stop='1571361435464'>
+            <name>Then I should see page heading as "Search for a Nationwide mortgage"</name>
+            <title>Then I should see page heading as "Search for a Nationwide mortgage"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1571361435464' status='passed' stop='1571361435706'>
+            <name>When I select "No" for having a Nationwide Mortgage</name>
+            <title>When I select "No" for having a Nationwide Mortgage</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1571361435707' status='passed' stop='1571361435981'>
+            <name>And I select "Changing" Lender for Mortgage type</name>
+            <title>And I select "Changing" Lender for Mortgage type</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1571361435981' status='passed' stop='1571361439717'>
+            <name>And I input property value as "300000" Mortgage amount as "150000" term as "30" yrs to find available products</name>
+            <title>And I input property value as "300000" Mortgage amount as "150000" term as "30" yrs to find available products</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1571361439718' status='passed' stop='1571361440489'>
+            <name>And I filter the results based on "Fixed" Mortgage type and "With" fee</name>
+            <title>And I filter the results based on "Fixed" Mortgage type and "With" fee</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1571361440490' status='passed' stop='1571361440712'>
+            <name>Then I should see the result for 2, 3, 5 and 10 yrs Fixed products</name>
+            <title>Then I should see the result for 2, 3, 5 and 10 yrs Fixed products</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1571361440712' status='passed' stop='1571361442559'>
+            <name>When I apply for 5 year fixed</name>
+            <title>When I apply for 5 year fixed</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1571361442559' status='passed' stop='1571361443203'>
+            <name>Then I should navigate to "Start your Remortgage application"</name>
+            <title>Then I should navigate to "Start your Remortgage application"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
